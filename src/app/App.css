@@ -1,0 +1,65 @@
+.buttonPrimary {
+  background-color: #2e6acb !important;
+  color: #fff !important;
+  margin-left: 3px !important;
+}
+
+.buttonPrimary:hover {
+  background-color: #043ca0 !important;
+}
+
+.buttonDanger {
+  background-color: #d53c09 !important;
+  color: #fff !important;
+  margin-left: 3px !important;
+}
+
+.buttonDanger:hover {
+  background-color: #a01c04 !important;
+}
+
+.buttonSuccess {
+  background-color: #418c25 !important;
+  color: #fff !important;
+  margin-left: 3px !important;
+}
+
+.buttonSuccess:hover {
+  background-color: #072101 !important;
+}
+
+.text-green {
+  color: #418c25 !important;
+}
+
+.text-red {
+  color: #d53c09 !important;
+}
+
+.text-gray {
+  color: #ddd !important;
+}
+
+.dot-green {
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #418c25 !important;
+  border-radius: 50% !important;
+  display: inline-block !important;
+}
+
+.dot-ash {
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #9e9896 !important;
+  border-radius: 50% !important;
+  display: inline-block !important;
+}
+
+.dot-red {
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #d53c09 !important;
+  border-radius: 50% !important;
+  display: inline-block !important;
+}

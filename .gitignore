@@ -1,0 +1,11 @@
+*.log
+.DS_Store
+node_modules
+.cache
+dist
+example/dist
+example/node_modules
+example/.cache
+example/.DS_Store
+example/*.log
+example/.next

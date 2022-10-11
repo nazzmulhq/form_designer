@@ -1,0 +1,88 @@
+{
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "name": "form_designer",
+  "author": "mPower",
+  "module": "dist/form_designer.esm.js",
+  "size-limit": [
+    {
+      "path": "dist/form_designer.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/form_designer.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@reduxjs/toolkit": "^1.2.5",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/lodash": "^4.14.168",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.7",
+    "@types/react-router": "^5.1.13",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/react-table": "^7.7.5",
+    "@types/react-tag-autocomplete": "^6.1.0",
+    "@types/sortablejs": "^1.13.0",
+    "@types/styled-components": "^5.1.9",
+    "antd": "^4.23.1",
+    "axios": "^0.21.1",
+    "clsx": "^1.1.1",
+    "formik": "^2.2.9",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^6.15.5",
+    "react-redux": "^7.2.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-sortable-hoc": "^2.0.0",
+    "react-sortablejs": "6.1.1",
+    "react-table": "^7.7.0",
+    "sortablejs": "1.15.0",
+    "styled-components": "5.3.5",
+    "typescript": "~4.2.3",
+    "uuid": "^9.0.0"
+  },
+  "dependencies": {
+    "rollup-plugin-postcss": "^4.0.2",
+    "yarn": "^1.22.19"
+  }
+}
